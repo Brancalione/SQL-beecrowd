@@ -1,0 +1,3 @@
+select 'Podium: '||team  as name from league WHERE position <=3
+union all  
+select 'Demoted: '||team as name from league where position >=14 
